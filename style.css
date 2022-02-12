@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*starbuck's logo*/
+
+.logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+/*navbar*/
+
+
+/*main container of navbar*/
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 0 2px rgb(0 0 0 / 7%);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.navbar-container ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar-container li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+/*left side of navbar   "this side is visile only in screens containing width more than 500px"*/
+
+.nav-left {
+    margin-top: 0px;
+}
+
+
+/*icon of navbar visible only in screen containing width less han 500px*/
+
+#nav-icon {
+    display: none;
+}
+
+
+/*"btn-header" is in every button or link in header "this is visile only in screens containing width more than 500px"*/
+
+.btn-header {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*class for sign in button in navbar  "this buton is visile only in screens containing width more than 500px"*/
+
+.btn-light {
+    font-size: 15px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 8px 10px;
+}
+
+
+/*class for join now button in navbar*/
+
+.btn-dark {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 8px 10px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+
+/*location icon in nacbar "visible only in screen containing width more than 500px"*/
+
+i {
+    padding-right: 10px;
+}
+
+.section-1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+/*all the content "h2 and p" in section 1*/
+
+.section-1-content {
+    background-color: #006240;
+    color: white;
+    text-align: center;
+}
+
+
+/*image in section 1 detail :"man holding glass of coffee"*/
+
+.section-1-image img {
+    height: 40.5vh;
+    width: 50vw;
+}
+
+
+/*h2 in section 1*/
+
+.section-1-content h2 {
+    padding: 40px 30px 20px 30px;
+    font-size: 25px;
+}
+
+
+/*p in section 1*/
+
+.section-1-content p {
+    padding: 8px 100px 50px 100px;
+    font-size: 18px;
+    line-height: 1.5;
+    word-spacing: 5px;
+}
+
+
+/*join now button in section 1 */
+
+.btn-section-1 {
+    color: white;
+    border: 1px solid white;
+    font-size: 15px;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 8px 10px;
+}
+
+
+/*Second section details("2 images and two different content on different places")*/
+
+.section-2 {
+    display: grid;
+    grid-template-columns: 48% 49%;
+    grid-gap: 48px;
+    margin-top: 20px;
+}
+
+
+/*first image of secion 2 (details: cup of coffee) */
+
+#section-2-first-part-image {
+    height: 85vh;
+    width: 47.5vw;
+}
+
+
+/*second image of secion  (details: burger)*/
+
+#section-2-second-part-image {
+    height: 85vh;
+    width: 48.5vw;
+}
+
+
+/*all content in section 2 including h1, p ,a and img*/
+
+#section-2-content {
+    color: white;
+    padding: 20px 50px 30px 50px;
+    text-align: center;
+}
+
+#section-2-first-part {
+    background-color: #1e3932;
+}
+
+#section-2-second-part {
+    background-color: #1e3932;
+}
+
+#section-2-content h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#section-2-content p {
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 2px;
+    display: block;
+}
+
+
+/* order now button in section 2 firs part*/
+
+#btn-section-2-1 {
+    color: white;
+    border: 1px solid white;
+    font-size: 15px;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-block;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+
+/* order now button in section 2 second part*/
+
+#btn-section-2-2 {
+    color: white;
+    border: 1px solid white;
+    font-size: 15px;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+/* end of section 2*/
+
+
+/*section 3 starts from here*/
+
+
+/*main class of section 3 that is full section 3 is inside this class*/
+
+.section-3 {
+    display: grid;
+    grid-template-columns: 50% 51%;
+    grid-gap: 0px;
+    margin-top: 20px;
+}
+
+
+/*image of section 3 (details:2 glasses of coffee)*/
+
+#section-3-image {
+    height: 85vh;
+    width: 50vw;
+}
+
+
+/*all content of section 3*/
+
+#section-3-content {
+    background-color: #1e3932;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+}
+
+
+/*h1 in section 3*/
+
+#section-3-content h1 {
+    font-size: 50px;
+    padding-top: 80px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+/*p elements in section 3*/
+
+#section-3-content p {
+    font-size: 25px;
+    line-height: 1.3;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+
+/*order now button in section 3*/
+
+#btn-section-3 {
+    color: white;
+    border: 1px solid white;
+    font-size: 15px;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 8px 10px;
+}
+
+
+/*section 3 ends here*/
+
+
+/*section 4 starts from here*/
+
+
+/*main class of section 4 all content of section 4 starts from here*/
+
+.section-4 {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-gap: 25px;
+    margin-top: 20px;
+}
+
+
+/*image in section 4 (details: mobile image and uber eats image in section 4)*/
+
+#section-4-image {
+    width: 49vw;
+    height: 60vh;
+}
+
+
+/*first part of section 4  which contains mobile image*/
+
+#section-4-part-1 {
+    background-color: #d4e9e2;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#section-4-part-1 p {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+
+/*class for 2 buttons in section 4*/
+
+.btn-section-4 {
+    text-decoration: none;
+    border-radius: 100px;
+    border: 1px solid black;
+    color: black;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+
+/*second part of section 4 which contains image of uber eats*/
+
+#section-4-part-2 {
+    background-color: #d4e9e2;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+#section-4-part-2 h1 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#section-4-part-2 p {
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/*Media Queries*/
+
+
+/*for screens conaining width more than 500px */
+
+@media (max-width:500px) {
+    .btn-header {
+        display: none;
+    }
+    #nav-icon {
+        display: block;
+        float: right;
+        position: absolute;
+        right: 30px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .logo {
+        width: 35px;
+        height: 35px;
+        margin-left: 4px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    .section-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "image" "content";
+        background-color: #006240;
+    }
+    .section-1-image {
+        grid-area: image;
+    }
+    .section-1-content {
+        grid-area: content;
+    }
+    .section-1-image>img {
+        width: 100vw;
+        height: 20vh;
+    }
+    .section-1-content h1 {
+        font-size: 18px;
+        padding: 10px;
+    }
+    .section-1-content p {
+        font-size: 15px;
+        word-spacing: 0px;
+        padding: 10px;
+        line-height: 1.3;
+        margin-bottom: 19px;
+    }
+    .section-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    #section-2-first-part-image {
+        height: 40vh;
+        width: 100vw;
+    }
+    #section-2-second-part-image {
+        height: 40vh;
+        width: 100vw;
+    }
+    .btn-section-1 {
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+    #section-2-content h1 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+    #section-2-content p {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .section-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #section-3-image {
+        width: 100vw;
+        height: 40vh;
+    }
+    #section-3-content {
+        height: 40vh;
+        width: 100vw;
+    }
+    #section-3-content h1 {
+        font-size: 25px;
+        padding: 10px;
+    }
+    #section-3-content p {
+        margin-top: 20px;
+        font-size: 16px;
+        padding: 2px;
+    }
+    #btn-section-3 {
+        display: inline-block;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    #section-3-content {
+        padding: 10px;
+    }
+    .section-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #section-4-image {
+        height: 40vh;
+        width: 100vw;
+        padding: 0px;
+        margin: 0px;
+    }
+    #section-4-part-1 {
+        padding: 0;
+        margin: 0;
+    }
+    #section-4-part-1 h1 {
+        margin-top: 20px;
+        padding-left: 34px;
+        padding-right: 34px;
+        display: inline-block;
+    }
+    #section-4-part-1 p {
+        margin-top: 20px;
+        font-size: 16px;
+        padding-left: 34px;
+        padding-right: 34px;
+        display: inline-block;
+    }
+    #section-4-part-2 {
+        padding: 0;
+        margin: 0;
+    }
+    #section-4-part-2 h1 {
+        margin-top: 20px;
+        padding-left: 34px;
+        padding-right: 34px;
+        display: inline-block;
+    }
+    #section-4-part-2 p {
+        margin-top: 20px;
+        font-size: 16px;
+        padding-left: 34px;
+        padding-right: 34px;
+        display: inline-block;
+    }
+    .btn-section-4 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
